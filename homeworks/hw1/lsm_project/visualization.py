@@ -25,7 +25,7 @@ def switch_to_ggplot() -> None:
         plt.style.use('default')
 
 
-def visualize_lines(lines: LSMLines, path_to_save='lsm.png') -> None:
+def visualize_lines(lines: LSMLines, path_to_save='./homeworks/hw1/lsm.png') -> None:
     """
     Функция для визуализации МНК и сохранения полученной картинки
 
